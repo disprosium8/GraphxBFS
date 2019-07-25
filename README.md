@@ -2,7 +2,6 @@
 
 This is a simple implementation of performing Breadth First Search using GraphX library in Apache Spark
 
-
 #Requirements:
 
 * Java - 1.7 / 1.8
@@ -43,6 +42,11 @@ Usage: <jar-file> [options]
         prints this usage text  
 
 ```
+
+##Example Run
+
+> java -jar target/scala-2.12/Graph-BFS-assembly-1.0-SNAPSHOT.jar -g "LogNormal" -v 65536 -e 16384 -n 4
+
 #GraphType values  
 * Star Graph   
 * Log Normal graph - Taken out of pregel paper (https://kowshik.github.io/JPregel/pregel_paper.pdf)  
